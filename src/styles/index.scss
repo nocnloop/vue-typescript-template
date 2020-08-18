@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial,
+    sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+#app {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+// 外边框黑线bug
+.el-drawer:focus,
+.el-drawer__container:focus {
+  outline: none;
+}
+
+.el-form-item__label{
+  color: #606266;
+  font-weight: 700;
+}

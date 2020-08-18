@@ -1,0 +1,24 @@
+// left-part 最小宽度
+$leftPartWidthMin: 64px;
+
+// left-part 最大宽度
+$leftPartWidthMax: 210px;
+
+// 顶部导航栏的高度
+$navbarHeight: 50px;
+
+// 查询栏的高度
+$queryHeight: 70px;
+
+// 表格底部分页的高度
+$paginationHeight: 70px;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  leftPartWidthMin: $leftPartWidthMin;
+  leftPartWidthMax: $leftPartWidthMax;
+  navbarHeight: $navbarHeight;
+  queryHeight: $queryHeight;
+  paginationHeight: $paginationHeight;
+}

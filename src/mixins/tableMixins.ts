@@ -2,9 +2,6 @@ import { Component, Vue } from 'vue-property-decorator'
 
 @Component({ name: 'TableMixins' })
 export default class TableMixins extends Vue {
-  /** 正在查询 */
-  // isQuesting = false
-
   /** 表格数据 */
   tableData: any = []
 
